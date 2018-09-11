@@ -35,11 +35,6 @@ gulp.task("minimages", function() {
 		.pipe(gulp.dest("pub/images"));
 });
 
-/*gulp.task("watcher", function() {
-	gulp.watch("src/js/*.js", ["conminjs"]);
-	gulp.watch("src/*.html", ["copyhtml"]);
-});*/
-
 /* Watch updates for html, js, css, images */
 gulp.task("watcher", function() {
 	watch("src/js/*.js", function() {
