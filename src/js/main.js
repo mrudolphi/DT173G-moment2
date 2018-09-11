@@ -5,6 +5,8 @@ var year = today.getFullYear();
 var month = today.getMonth() +1;
 var day = today.getDate();
 
+
+/* Prints todays date on startpage */
 function start() {
 	if (month < 10) {
 		month = "0" + month;
