@@ -1,5 +1,0 @@
-/*
-Testfil
- */
-
-console.log("Test");

@@ -1,0 +1,12 @@
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 800px;
+}
+
+.images img {
+	display: inline-flex;
+	max-width: 250px;
+	height: 200px;
+}
