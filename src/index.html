@@ -5,7 +5,7 @@
 	<title>Moment 2 - Startsida</title>
 	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
-<body>
+<body onload="start()">
 <header>
 	<h1>DT173G - Webbutveckling III</h1>
 	<h3>Moment 2 - Automatisering med NodeJs & Gulp</h3>
@@ -17,12 +17,14 @@
 		<li><a href="images.html">Bilder</a></li>
 	</ul>
 </nav>
-<section class="container" id="start">
+<section class="container">
+	<div id="start"></div>
 	<p>Det här är en uppgift i kursen DT173G - Webbutveckling III som handlar om automatisering.
 	Läs mer om uppgiften på <a href="about.html">Om uppgiften</a>. Under <a href="images.html">Bilder</a> kan du se några random bilder från
-		<a href="flickr.com" target="_blank">Flickr</a>.</p>
+		<a href="https://www.flickr.com/" target="_blank">Flickr</a>.</p>
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.min.js"></script>
 </body>
 </html>
