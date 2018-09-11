@@ -33,13 +33,17 @@ nav ul li a {
 	border-radius: 7px;
 }
 
+.is-active {
+	background: darkgoldenrod;
+}
+
 nav ul li a:hover {
 	background: rgba(47, 60, 60, 1);
 	color: #ddd;
 }
 
-.is-active {
-	background: darkgoldenrod !important;
+.is-active:hover {
+	background: rgba(175, 127, 10, 1);
 }
 
 .container {
